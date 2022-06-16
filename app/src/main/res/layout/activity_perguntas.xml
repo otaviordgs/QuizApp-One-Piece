@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PerguntasActivity"
+    android:background="@drawable/fundo">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/pergunta"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="Qual o nome do 'Haki do Rei' em japonês?"
+            android:textColor="@color/brancoFraco"
+            android:textSize="22sp"
+            android:textAlignment="center"/>
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imagem"
+            android:layout_width="wrap_content"
+            android:layout_height="210dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/haki_rei"/>
+
+        <Button
+            android:id="@+id/alternativa1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Bushoku"
+            android:textColor="#7A8089"
+            android:background="@drawable/default_option_border_bg"
+            android:textSize="15sp"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/alternativa2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Hashoku"
+            android:textColor="#7A8089"
+            android:background="@drawable/default_option_border_bg"
+            android:textSize="15sp"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/alternativa3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Luffy"
+            android:textColor="#7A8089"
+            android:background="@drawable/default_option_border_bg"
+            android:textSize="15sp"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/alternativa4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Zoro"
+            android:textColor="#7A8089"
+            android:background="@drawable/default_option_border_bg"
+            android:textSize="15sp"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/alternativa5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Ussop"
+            android:textColor="#7A8089"
+            android:background="@drawable/default_option_border_bg"
+            android:textSize="15sp"
+            android:layout_margin="10dp"/>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ajuda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ajuda"
+                android:background="@color/brancoFraco"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/Avancar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Avançar"
+                android:background="@color/brancoFraco"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/pular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pular"
+                android:background="@color/brancoFraco"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
